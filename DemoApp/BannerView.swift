@@ -2,7 +2,7 @@
 // Copyright © 2021 Stream.io Inc. All rights reserved.
 //
 
-import StreamChatUI
+import StreamChat
 import UIKit
 
 final class BannerView: UIView {

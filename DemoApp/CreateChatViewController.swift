@@ -5,7 +5,6 @@
 import Foundation
 import Nuke
 import StreamChat
-import StreamChatUI
 import UIKit
 
 class CreateChatViewController: UIViewController {

@@ -26,7 +26,7 @@ open class ChatChannelHeaderView:
     }
 
     /// Timer used to update the online status of member in the channel.
-    open var timer: Timer? {
+    open var timer: Foundation.Timer? {
         didSet {
             oldValue?.invalidate()
         }
@@ -97,7 +97,7 @@ open class ChatChannelHeaderView:
             return
         }
 
-        timer = Timer.scheduledTimer(
+        timer = Foundation.Timer.scheduledTimer(
             withTimeInterval: statusUpdateInterval,
             repeats: true
         ) { [weak self] _ in

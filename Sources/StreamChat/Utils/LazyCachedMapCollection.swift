@@ -33,7 +33,7 @@ public struct LazyCachedMapCollection<Element>: RandomAccessCollection {
     }
 
     private var generator: (Index) -> Element
-    private var cache: Cache<Element>
+    private var cache: PrivateCache<Element>
 
     public subscript(position: Index) -> Element {
         if let cached = cache.values[position] {
@@ -70,7 +70,7 @@ extension RandomAccessCollection where Index == Int {
 }
 
 // Must be class so it can be mutable while the collection isn't
-private class Cache<Element> {
+private class PrivateCache<Element> {
     init(capacity: Int) {
         values = ContiguousArray(repeating: nil, count: capacity)
     }

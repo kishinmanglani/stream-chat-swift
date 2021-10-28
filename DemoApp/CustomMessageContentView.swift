@@ -3,7 +3,7 @@
 //
 
 import Foundation
-import StreamChatUI
+import StreamChat
 import UIKit
 
 class CustomMessageContentView: ChatMessageContentView {
