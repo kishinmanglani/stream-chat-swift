@@ -74,10 +74,6 @@
 		7865705825FB6DF300974045 /* UIViewController+Extensions_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7865705725FB6DF300974045 /* UIViewController+Extensions_Tests.swift */; };
 		78C8474125FA0F2900A5D1D0 /* ChatChannelUnreadCountView+SwiftUI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C8474025FA0F2900A5D1D0 /* ChatChannelUnreadCountView+SwiftUI_Tests.swift */; };
 		7900452625374CA20096ECA1 /* User+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7900452525374CA20096ECA1 /* User+SwiftUI.swift */; };
-		7908820625432B7200896F03 /* StreamChatUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790881FD25432B7200896F03 /* StreamChatUI.framework */; };
-		7908821225432B7200896F03 /* StreamChatUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790881FD25432B7200896F03 /* StreamChatUI.framework */; };
-		7908821325432B7200896F03 /* StreamChatUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 790881FD25432B7200896F03 /* StreamChatUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7908823325432C6400896F03 /* StreamChatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 7908823125432C6400896F03 /* StreamChatUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7908824A25432CC600896F03 /* StreamChatStressTestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 7908824725432CC600896F03 /* StreamChatStressTestPlan.xctestplan */; };
 		7908824B25432CC600896F03 /* StreamChatTestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 7908824825432CC600896F03 /* StreamChatTestPlan.xctestplan */; };
 		7908829C2546D95A00896F03 /* FlagMessagePayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908829A2546D95A00896F03 /* FlagMessagePayload.swift */; };
@@ -269,10 +265,7 @@
 		7991D83F24F8F1BF00D21BA3 /* ChatClient_Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7991D83E24F8F1BF00D21BA3 /* ChatClient_Mock.swift */; };
 		79940B88258398A500791EAE /* StreamChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799C941B247D2F80001F1104 /* StreamChat.framework */; };
 		79940B89258398A500791EAE /* StreamChat.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 799C941B247D2F80001F1104 /* StreamChat.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		79940B8C258398A500791EAE /* StreamChatUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790881FD25432B7200896F03 /* StreamChatUI.framework */; };
-		79940B8D258398A500791EAE /* StreamChatUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 790881FD25432B7200896F03 /* StreamChatUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		79983C8126663436000995F6 /* ChatMessageVideoAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79983C80266633C2000995F6 /* ChatMessageVideoAttachment.swift */; };
-		799ADAAF2563FFA1006D43F9 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 799ADAAE2563FFA1006D43F9 /* Nuke */; };
 		799B5DC5253081C900C108FB /* DevicePayloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799B5DC4253081C900C108FB /* DevicePayloads.swift */; };
 		799BE2EA248A8C9D00DAC8A0 /* WebSocketReconnectionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799BE2E9248A8C9D00DAC8A0 /* WebSocketReconnectionStrategy.swift */; };
 		799BE2EC248A8CB300DAC8A0 /* WebSocketReconnectionStrategy_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799BE2EB248A8CB300DAC8A0 /* WebSocketReconnectionStrategy_Tests.swift */; };
@@ -462,7 +455,6 @@
 		8051F78B25D9DDFE00D4F938 /* 00-File-Uploads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8051F78A25D9DDFE00D4F938 /* 00-File-Uploads.swift */; };
 		805A11492506FBBD0089DFC4 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805A11472506FBB30089DFC4 /* UIViewController+Alert.swift */; };
 		80750A4625D1D51C0027F951 /* 01-Channels-Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80750A4525D1D51C0027F951 /* 01-Channels-Storyboard.swift */; };
-		80750A5025D1D5810027F951 /* StreamChatUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790881FD25432B7200896F03 /* StreamChatUI.framework */; };
 		80750A5925D1D5B90027F951 /* 02-Channels-Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80750A5825D1D5B90027F951 /* 02-Channels-Code.swift */; };
 		80750A6325D1D8E00027F951 /* 03-Messages-Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80750A6225D1D8E00027F951 /* 03-Messages-Storyboard.swift */; };
 		80750A7325D1DD5C0027F951 /* 04-Messages-Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80750A7225D1DD5C0027F951 /* 04-Messages-Storyboard.swift */; };
@@ -694,7 +686,6 @@
 		AC90838D268B116000ACFB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC90838C268B116000ACFB8E /* Assets.xcassets */; };
 		AC908390268B116000ACFB8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC90838E268B116000ACFB8E /* LaunchScreen.storyboard */; };
 		AC908397268B11A300ACFB8E /* ChatClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC908396268B11A300ACFB8E /* ChatClient.swift */; };
-		AC908398268B120300ACFB8E /* StreamChatUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790881FD25432B7200896F03 /* StreamChatUI.framework */; };
 		AC90839D268B120900ACFB8E /* StreamChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799C941B247D2F80001F1104 /* StreamChat.framework */; };
 		AC9083A3268B12C300ACFB8E /* YTChatMessageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9083A2268B12C300ACFB8E /* YTChatMessageContentView.swift */; };
 		AC9083A5268B130800ACFB8E /* YTChatMessageComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9083A4268B130800ACFB8E /* YTChatMessageComposerView.swift */; };
@@ -1006,7 +997,6 @@
 		DAFAD6A124DC476A0043ED06 /* Result+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAD6A024DC476A0043ED06 /* Result+Extensions.swift */; };
 		DAFAD6A324DD8E1A0043ED06 /* ChannelEditDetailPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFAD6A224DD8E1A0043ED06 /* ChannelEditDetailPayload.swift */; };
 		DB05FC1125D569590084B6A3 /* BackgroundTaskScheduler_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB05FC1025D569590084B6A3 /* BackgroundTaskScheduler_Tests.swift */; };
-		DB823107259C271C00E7D7FE /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = DB823106259C271C00E7D7FE /* SwiftyGif */; };
 		DB842E4525C9F94C000AAC46 /* LazyCachedMapCollection_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB842E4425C9F94C000AAC46 /* LazyCachedMapCollection_Tests.swift */; };
 		DBCAFE2425C44B920015AD58 /* LazyCachedMapCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCAFE2325C44B920015AD58 /* LazyCachedMapCollection.swift */; };
 		DBF17AE825D48865004517B3 /* BackgroundTaskScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF17AE725D48865004517B3 /* BackgroundTaskScheduler.swift */; };
@@ -1032,7 +1022,6 @@
 		E74DB0C02656631700508D22 /* CustomUIViewSubclasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70A09E925F230EE00C55BBE /* CustomUIViewSubclasses.swift */; };
 		E74DB0C32656631700508D22 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225503B725DC59FD00A5A65A /* Helpers.swift */; };
 		E74DB0C52656631700508D22 /* UITestsEnvironmentSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7849AF9225F2479A007817D4 /* UITestsEnvironmentSetup.swift */; };
-		E74DB0C82656631700508D22 /* StreamChatUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790881FD25432B7200896F03 /* StreamChatUI.framework */; };
 		E74DB0C92656631700508D22 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = E74DB08F2656631700508D22 /* SnapshotTesting */; };
 		E74DB0CB2656631700508D22 /* yoda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AD0169CA25CAEDC0009EBAD2 /* yoda.jpg */; };
 		E74DB0CC2656631700508D22 /* chewbacca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADEA7F21261D2F8C00CA2289 /* chewbacca.jpg */; };
@@ -1110,9 +1099,7 @@
 		F86C87D025F906A30000BCA9 /* FetchImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86C87CF25F906A30000BCA9 /* FetchImage.swift */; };
 		F86C87DA25F906A90000BCA9 /* MessengerChatChannelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86C87D925F906A90000BCA9 /* MessengerChatChannelList.swift */; };
 		F86C87E725F907AE0000BCA9 /* StreamChat.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 799C941B247D2F80001F1104 /* StreamChat.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F86C87E825F907AE0000BCA9 /* StreamChatUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 790881FD25432B7200896F03 /* StreamChatUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F86C87F125F907CA0000BCA9 /* StreamChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799C941B247D2F80001F1104 /* StreamChat.framework */; };
-		F86C87F225F907CA0000BCA9 /* StreamChatUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790881FD25432B7200896F03 /* StreamChatUI.framework */; };
 		F86C887725FA5C020000BCA9 /* ChatChannelAvatarView+SwiftUI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86C887625FA5C020000BCA9 /* ChatChannelAvatarView+SwiftUI_Tests.swift */; };
 		F86C88BF25FA65C20000BCA9 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86C88BE25FA65C10000BCA9 /* ImageView.swift */; };
 		F86C88C825FA66CB0000BCA9 /* MessengerChatChannelListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86C88C725FA66CA0000BCA9 /* MessengerChatChannelListItem.swift */; };
@@ -1147,9 +1134,7 @@
 		F8933BC225FF56400054BBFF /* SlackChatAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8933BBC25FF56400054BBFF /* SlackChatAvatarView.swift */; };
 		F8933BC425FF56460054BBFF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8933BC325FF56460054BBFF /* Colors.swift */; };
 		F8933BD125FF56790054BBFF /* StreamChat.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 799C941B247D2F80001F1104 /* StreamChat.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F8933BD225FF56790054BBFF /* StreamChatUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 790881FD25432B7200896F03 /* StreamChatUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F8933BDB25FF569E0054BBFF /* StreamChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799C941B247D2F80001F1104 /* StreamChat.framework */; };
-		F8933BDC25FF569E0054BBFF /* StreamChatUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790881FD25432B7200896F03 /* StreamChatUI.framework */; };
 		F8933D2125FFAB400054BBFF /* APIPathConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8933D2025FFAB400054BBFF /* APIPathConvertible.swift */; };
 		F8933DF4260209100054BBFF /* SlackChatMessageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8933DF3260209100054BBFF /* SlackChatMessageContentView.swift */; };
 		F8933DFD26020A650054BBFF /* ChatClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8933DFC26020A650054BBFF /* ChatClient.swift */; };
@@ -1158,7 +1143,6 @@
 		F89C23B225E508E20082CA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89C23B125E508E20082CA5B /* Assets.xcassets */; };
 		F89C23B525E508E20082CA5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89C23B325E508E20082CA5B /* LaunchScreen.storyboard */; };
 		F89C23ED25E520140082CA5B /* StreamChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799C941B247D2F80001F1104 /* StreamChat.framework */; };
-		F89C23EE25E522FA0082CA5B /* StreamChatUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790881FD25432B7200896F03 /* StreamChatUI.framework */; };
 		F8AADE3C25E53DFA005E8528 /* iMessageChatChannelListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AADE3B25E53DF9005E8528 /* iMessageChatChannelListItemView.swift */; };
 		F8BA4F9225E694F90078BA9D /* iMessageComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BA4F9125E694F90078BA9D /* iMessageComposerView.swift */; };
 		F8BA4FA425E69D8F0078BA9D /* iMessageComposerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BA4FA325E69D8F0078BA9D /* iMessageComposerVC.swift */; };
@@ -1188,34 +1172,6 @@
 			remoteGlobalIDString = 799C941A247D2F80001F1104;
 			remoteInfo = StreamChat;
 		};
-		7908820725432B7200896F03 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AD5EC8622E9A3E8005CFAC9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 790881FC25432B7200896F03;
-			remoteInfo = StreamChatUI;
-		};
-		7908821025432B7200896F03 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AD5EC8622E9A3E8005CFAC9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 790881FC25432B7200896F03;
-			remoteInfo = StreamChatUI;
-		};
-		7908826525432D7900896F03 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AD5EC8622E9A3E8005CFAC9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 799C941A247D2F80001F1104;
-			remoteInfo = StreamChat;
-		};
-		792DDA71256FB6AD001DB91B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AD5EC8622E9A3E8005CFAC9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 790881FC25432B7200896F03;
-			remoteInfo = StreamChatUI;
-		};
 		793060F025778897005CF846 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8AD5EC8622E9A3E8005CFAC9 /* Project object */;
@@ -1244,26 +1200,12 @@
 			remoteGlobalIDString = 793060E525778896005CF846;
 			remoteInfo = StreamChatTestTools;
 		};
-		80750A4E25D1D5790027F951 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AD5EC8622E9A3E8005CFAC9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 790881FC25432B7200896F03;
-			remoteInfo = StreamChatUI;
-		};
 		8082786A25D1BB50008039DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8AD5EC8622E9A3E8005CFAC9 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 799C941A247D2F80001F1104;
 			remoteInfo = StreamChat;
-		};
-		AC90839A268B120300ACFB8E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AD5EC8622E9A3E8005CFAC9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 790881FC25432B7200896F03;
-			remoteInfo = StreamChatUI;
 		};
 		AC90839F268B120900ACFB8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1279,13 +1221,6 @@
 			remoteGlobalIDString = 793060E525778896005CF846;
 			remoteInfo = StreamChatTestTools;
 		};
-		E74DB08E2656631700508D22 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AD5EC8622E9A3E8005CFAC9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 790881FC25432B7200896F03;
-			remoteInfo = StreamChatUI;
-		};
 		F81582E125F66ADF00E11150 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8AD5EC8622E9A3E8005CFAC9 /* Project object */;
@@ -1293,26 +1228,12 @@
 			remoteGlobalIDString = 799C941A247D2F80001F1104;
 			remoteInfo = StreamChat;
 		};
-		F81582E325F66ADF00E11150 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AD5EC8622E9A3E8005CFAC9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 790881FC25432B7200896F03;
-			remoteInfo = StreamChatUI;
-		};
 		F86C87E325F907A70000BCA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8AD5EC8622E9A3E8005CFAC9 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 799C941A247D2F80001F1104;
 			remoteInfo = StreamChat;
-		};
-		F86C87E525F907A70000BCA9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AD5EC8622E9A3E8005CFAC9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 790881FC25432B7200896F03;
-			remoteInfo = StreamChatUI;
 		};
 		F8788F77261DE9A4006019DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1335,13 +1256,6 @@
 			remoteGlobalIDString = 799C941A247D2F80001F1104;
 			remoteInfo = StreamChat;
 		};
-		F8933BCF25FF56710054BBFF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8AD5EC8622E9A3E8005CFAC9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 790881FC25432B7200896F03;
-			remoteInfo = StreamChatUI;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1362,7 +1276,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7908821325432B7200896F03 /* StreamChatUI.framework in Embed Frameworks */,
 				79200D47250140BB002F4EB1 /* StreamChat.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -1374,7 +1287,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				79940B8D258398A500791EAE /* StreamChatUI.framework in Embed Frameworks */,
 				79940B89258398A500791EAE /* StreamChat.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -1387,7 +1299,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				F86C87E725F907AE0000BCA9 /* StreamChat.framework in Embed Frameworks */,
-				F86C87E825F907AE0000BCA9 /* StreamChatUI.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1399,7 +1310,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				F8933BD125FF56790054BBFF /* StreamChat.framework in Embed Frameworks */,
-				F8933BD225FF56790054BBFF /* StreamChatUI.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1512,7 +1422,6 @@
 		78C8473725FA0EF000A5D1D0 /* ChatChannelUnreadCountView+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatChannelUnreadCountView+SwiftUI.swift"; sourceTree = "<group>"; };
 		78C8474025FA0F2900A5D1D0 /* ChatChannelUnreadCountView+SwiftUI_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatChannelUnreadCountView+SwiftUI_Tests.swift"; sourceTree = "<group>"; };
 		7900452525374CA20096ECA1 /* User+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+SwiftUI.swift"; sourceTree = "<group>"; };
-		790881FD25432B7200896F03 /* StreamChatUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StreamChatUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7908820525432B7200896F03 /* StreamChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7908823125432C6400896F03 /* StreamChatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamChatUI.h; sourceTree = "<group>"; };
 		7908823225432C6400896F03 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2549,20 +2458,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		790881FA25432B7200896F03 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				799ADAAF2563FFA1006D43F9 /* Nuke in Frameworks */,
-				DB823107259C271C00E7D7FE /* SwiftyGif in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7908820225432B7200896F03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7908820625432B7200896F03 /* StreamChatUI.framework in Frameworks */,
 				AD472EF825C425FB00A96E70 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2571,7 +2470,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7908821225432B7200896F03 /* StreamChatUI.framework in Frameworks */,
 				79200D46250140BB002F4EB1 /* StreamChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2581,7 +2479,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				79940B88258398A500791EAE /* StreamChat.framework in Frameworks */,
-				79940B8C258398A500791EAE /* StreamChatUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2623,7 +2520,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80750A5025D1D5810027F951 /* StreamChatUI.framework in Frameworks */,
 				8082786C25D1BB56008039DD /* StreamChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2633,7 +2529,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC90839D268B120900ACFB8E /* StreamChat.framework in Frameworks */,
-				AC908398268B120300ACFB8E /* StreamChatUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2641,7 +2536,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E74DB0C82656631700508D22 /* StreamChatUI.framework in Frameworks */,
 				E74DB0C92656631700508D22 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2651,7 +2545,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F86C87F125F907CA0000BCA9 /* StreamChat.framework in Frameworks */,
-				F86C87F225F907CA0000BCA9 /* StreamChatUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2660,7 +2553,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8933BDB25FF569E0054BBFF /* StreamChat.framework in Frameworks */,
-				F8933BDC25FF569E0054BBFF /* StreamChatUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2668,7 +2560,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F89C23EE25E522FA0082CA5B /* StreamChatUI.framework in Frameworks */,
 				F89C23ED25E520140082CA5B /* StreamChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2734,7 +2625,7 @@
 			path = StreamChat;
 			sourceTree = "<group>";
 		};
-		7908823025432C6400896F03 /* StreamChatUI */ = {
+		7908823025432C6400896F03 /* BundledStreamChatUI */ = {
 			isa = PBXGroup;
 			children = (
 				BDDD1EA22632C50200BA007B /* Appearance.swift */,
@@ -2762,7 +2653,7 @@
 				7908823125432C6400896F03 /* StreamChatUI.h */,
 				7908823225432C6400896F03 /* Info.plist */,
 			);
-			path = StreamChatUI;
+			path = BundledStreamChatUI;
 			sourceTree = "<group>";
 		};
 		7908823925432C9000896F03 /* StreamChatUITests */ = {
@@ -3381,7 +3272,7 @@
 			children = (
 				790881AB254327C800896F03 /* StreamChat */,
 				793060E725778896005CF846 /* StreamChatTestTools */,
-				7908823025432C6400896F03 /* StreamChatUI */,
+				7908823025432C6400896F03 /* BundledStreamChatUI */,
 			);
 			indentWidth = 4;
 			path = Sources;
@@ -4514,7 +4405,6 @@
 				799C941B247D2F80001F1104 /* StreamChat.framework */,
 				799C9451247D59B1001F1104 /* StreamChatTests.xctest */,
 				792A4F22247FF01800EAF71D /* StreamChatSample.app */,
-				790881FD25432B7200896F03 /* StreamChatUI.framework */,
 				7908820525432B7200896F03 /* StreamChatUITests.xctest */,
 				792DDA57256FB69E001DB91B /* ChatSample.app */,
 				793060E625778896005CF846 /* StreamChatTestTools.framework */,
@@ -5228,14 +5118,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		790881F825432B7200896F03 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7908823325432C6400896F03 /* StreamChatUI.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		793060E125778896005CF846 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -5281,30 +5163,6 @@
 			productReference = 437FCA0426D67BE40000223C /* DemoAppPush.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		790881FC25432B7200896F03 /* StreamChatUI */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7908821425432B7200896F03 /* Build configuration list for PBXNativeTarget "StreamChatUI" */;
-			buildPhases = (
-				790881F825432B7200896F03 /* Headers */,
-				88F0D6EB257E40B300F4B050 /* SwiftGen */,
-				790881F925432B7200896F03 /* Sources */,
-				790881FA25432B7200896F03 /* Frameworks */,
-				790881FB25432B7200896F03 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7908826625432D7900896F03 /* PBXTargetDependency */,
-			);
-			name = StreamChatUI;
-			packageProductDependencies = (
-				799ADAAE2563FFA1006D43F9 /* Nuke */,
-				DB823106259C271C00E7D7FE /* SwiftyGif */,
-			);
-			productName = StreamChatUI;
-			productReference = 790881FD25432B7200896F03 /* StreamChatUI.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		7908820425432B7200896F03 /* StreamChatUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7908821825432B7200896F03 /* Build configuration list for PBXNativeTarget "StreamChatUITests" */;
@@ -5317,7 +5175,6 @@
 			);
 			dependencies = (
 				79F458A925E3B52900E63D67 /* PBXTargetDependency */,
-				7908820825432B7200896F03 /* PBXTargetDependency */,
 			);
 			name = StreamChatUITests;
 			packageProductDependencies = (
@@ -5340,7 +5197,6 @@
 			);
 			dependencies = (
 				790881AF2543282200896F03 /* PBXTargetDependency */,
-				7908821125432B7200896F03 /* PBXTargetDependency */,
 			);
 			name = StreamChatSample;
 			productName = Sample;
@@ -5360,7 +5216,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				792DDA72256FB6AD001DB91B /* PBXTargetDependency */,
 				79940B8B258398A500791EAE /* PBXTargetDependency */,
 				437FCA0A26D67BE40000223C /* PBXTargetDependency */,
 			);
@@ -5462,7 +5317,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				80750A4F25D1D5790027F951 /* PBXTargetDependency */,
 				8082786B25D1BB50008039DD /* PBXTargetDependency */,
 			);
 			name = DocsSnippets;
@@ -5481,7 +5335,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				AC90839B268B120300ACFB8E /* PBXTargetDependency */,
 				AC9083A0268B120900ACFB8E /* PBXTargetDependency */,
 			);
 			name = YouTube;
@@ -5501,7 +5354,6 @@
 			);
 			dependencies = (
 				E74DB08B2656631700508D22 /* PBXTargetDependency */,
-				E74DB08D2656631700508D22 /* PBXTargetDependency */,
 			);
 			name = UISDKDocumentation;
 			packageProductDependencies = (
@@ -5524,7 +5376,6 @@
 			);
 			dependencies = (
 				F86C87E425F907A70000BCA9 /* PBXTargetDependency */,
-				F86C87E625F907A70000BCA9 /* PBXTargetDependency */,
 			);
 			name = Messenger;
 			productName = MessengerClone;
@@ -5544,7 +5395,6 @@
 			);
 			dependencies = (
 				F8933BCE25FF56710054BBFF /* PBXTargetDependency */,
-				F8933BD025FF56710054BBFF /* PBXTargetDependency */,
 			);
 			name = Slack;
 			productName = SlackClone;
@@ -5563,7 +5413,6 @@
 			);
 			dependencies = (
 				F81582E225F66ADF00E11150 /* PBXTargetDependency */,
-				F81582E425F66ADF00E11150 /* PBXTargetDependency */,
 			);
 			name = iMessage;
 			productName = iMessageClone;
@@ -5582,10 +5431,6 @@
 				TargetAttributes = {
 					437FCA0326D67BE40000223C = {
 						CreatedOnToolsVersion = 12.5;
-					};
-					790881FC25432B7200896F03 = {
-						CreatedOnToolsVersion = 12.0.1;
-						LastSwiftMigration = 1200;
 					};
 					7908820425432B7200896F03 = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -5652,7 +5497,6 @@
 				799C9450247D59B1001F1104 /* StreamChatTests */,
 				793060E525778896005CF846 /* StreamChatTestTools */,
 				793060ED25778897005CF846 /* StreamChatTestToolsTests */,
-				790881FC25432B7200896F03 /* StreamChatUI */,
 				7908820425432B7200896F03 /* StreamChatUITests */,
 				792DDA56256FB69E001DB91B /* DemoApp */,
 				437FCA0326D67BE40000223C /* DemoAppPush */,
@@ -5669,13 +5513,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		437FCA0226D67BE40000223C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		790881FB25432B7200896F03 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -5903,27 +5740,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		88F0D6EB257E40B300F4B050 /* SwiftGen */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = SwiftGen;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which mint >/dev/null && mint which swiftgen; then\n  xcrun --sdk macosx mint run swiftgen config run --config ./Sources/StreamChatUI/.swiftgen.yml\nelse\n  echo \"Warning: Bootstrap not run, please run ./bootstrap.sh\"\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		437FCA0026D67BE40000223C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -5931,13 +5747,6 @@
 			files = (
 				437FCA0726D67BE40000223C /* NotificationService.swift in Sources */,
 				43C68D9126DD37B700622533 /* DemoUsers.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		790881F925432B7200896F03 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7037,26 +6846,6 @@
 			target = 799C941A247D2F80001F1104 /* StreamChat */;
 			targetProxy = 790881AE2543282200896F03 /* PBXContainerItemProxy */;
 		};
-		7908820825432B7200896F03 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 790881FC25432B7200896F03 /* StreamChatUI */;
-			targetProxy = 7908820725432B7200896F03 /* PBXContainerItemProxy */;
-		};
-		7908821125432B7200896F03 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 790881FC25432B7200896F03 /* StreamChatUI */;
-			targetProxy = 7908821025432B7200896F03 /* PBXContainerItemProxy */;
-		};
-		7908826625432D7900896F03 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 799C941A247D2F80001F1104 /* StreamChat */;
-			targetProxy = 7908826525432D7900896F03 /* PBXContainerItemProxy */;
-		};
-		792DDA72256FB6AD001DB91B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 790881FC25432B7200896F03 /* StreamChatUI */;
-			targetProxy = 792DDA71256FB6AD001DB91B /* PBXContainerItemProxy */;
-		};
 		793060F125778897005CF846 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 793060E525778896005CF846 /* StreamChatTestTools */;
@@ -7077,20 +6866,10 @@
 			target = 793060E525778896005CF846 /* StreamChatTestTools */;
 			targetProxy = 79F458A825E3B52900E63D67 /* PBXContainerItemProxy */;
 		};
-		80750A4F25D1D5790027F951 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 790881FC25432B7200896F03 /* StreamChatUI */;
-			targetProxy = 80750A4E25D1D5790027F951 /* PBXContainerItemProxy */;
-		};
 		8082786B25D1BB50008039DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 799C941A247D2F80001F1104 /* StreamChat */;
 			targetProxy = 8082786A25D1BB50008039DD /* PBXContainerItemProxy */;
-		};
-		AC90839B268B120300ACFB8E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 790881FC25432B7200896F03 /* StreamChatUI */;
-			targetProxy = AC90839A268B120300ACFB8E /* PBXContainerItemProxy */;
 		};
 		AC9083A0268B120900ACFB8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -7102,30 +6881,15 @@
 			target = 793060E525778896005CF846 /* StreamChatTestTools */;
 			targetProxy = E74DB08C2656631700508D22 /* PBXContainerItemProxy */;
 		};
-		E74DB08D2656631700508D22 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 790881FC25432B7200896F03 /* StreamChatUI */;
-			targetProxy = E74DB08E2656631700508D22 /* PBXContainerItemProxy */;
-		};
 		F81582E225F66ADF00E11150 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 799C941A247D2F80001F1104 /* StreamChat */;
 			targetProxy = F81582E125F66ADF00E11150 /* PBXContainerItemProxy */;
 		};
-		F81582E425F66ADF00E11150 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 790881FC25432B7200896F03 /* StreamChatUI */;
-			targetProxy = F81582E325F66ADF00E11150 /* PBXContainerItemProxy */;
-		};
 		F86C87E425F907A70000BCA9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 799C941A247D2F80001F1104 /* StreamChat */;
 			targetProxy = F86C87E325F907A70000BCA9 /* PBXContainerItemProxy */;
-		};
-		F86C87E625F907A70000BCA9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 790881FC25432B7200896F03 /* StreamChatUI */;
-			targetProxy = F86C87E525F907A70000BCA9 /* PBXContainerItemProxy */;
 		};
 		F8788F78261DE9A4006019DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -7141,11 +6905,6 @@
 			isa = PBXTargetDependency;
 			target = 799C941A247D2F80001F1104 /* StreamChat */;
 			targetProxy = F8933BCD25FF56710054BBFF /* PBXContainerItemProxy */;
-		};
-		F8933BD025FF56710054BBFF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 790881FC25432B7200896F03 /* StreamChatUI */;
-			targetProxy = F8933BCF25FF56710054BBFF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -7332,99 +7091,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development io.getstream.iOS.ChatDemoApp.DemoAppPush";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = ReleaseTests;
-		};
-		7908821525432B7200896F03 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = EHV7XZLAHA;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/StreamChatUI/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = "3.0-beta.3";
-				PRODUCT_BUNDLE_IDENTIFIER = io.stream.StreamChatUI;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		7908821625432B7200896F03 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = EHV7XZLAHA;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/StreamChatUI/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = "3.0-beta.3";
-				PRODUCT_BUNDLE_IDENTIFIER = io.stream.StreamChatUI;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		7908821725432B7200896F03 /* ReleaseTests */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = EHV7XZLAHA;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/StreamChatUI/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = "3.0-beta.3";
-				PRODUCT_BUNDLE_IDENTIFIER = io.stream.StreamChatUI;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -8680,16 +8346,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7908821425432B7200896F03 /* Build configuration list for PBXNativeTarget "StreamChatUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7908821525432B7200896F03 /* Debug */,
-				7908821625432B7200896F03 /* Release */,
-				7908821725432B7200896F03 /* ReleaseTests */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7908821825432B7200896F03 /* Build configuration list for PBXNativeTarget "StreamChatUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -8876,11 +8532,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		799ADAAE2563FFA1006D43F9 /* Nuke */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 799ADAAD2563FFA1006D43F9 /* XCRemoteSwiftPackageReference "Nuke" */;
-			productName = Nuke;
-		};
 		79A4AE102536EE5500C32A74 /* Starscream */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 79A4AE0F2536EE5500C32A74 /* XCRemoteSwiftPackageReference "Starscream" */;
@@ -8897,11 +8548,6 @@
 			productName = Nuke;
 		};
 		C1617DC4272A9C4000BA18A6 /* SwiftyGif */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DB823105259C271C00E7D7FE /* XCRemoteSwiftPackageReference "SwiftyGif" */;
-			productName = SwiftyGif;
-		};
-		DB823106259C271C00E7D7FE /* SwiftyGif */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DB823105259C271C00E7D7FE /* XCRemoteSwiftPackageReference "SwiftyGif" */;
 			productName = SwiftyGif;
