@@ -14,10 +14,6 @@ let package = Package(
         .library(
             name: "StreamChat",
             targets: ["StreamChat"]
-        ),
-        .library(
-            name: "StreamChatUI",
-            targets: ["StreamChatUI"]
         )
     ],
     dependencies: [
