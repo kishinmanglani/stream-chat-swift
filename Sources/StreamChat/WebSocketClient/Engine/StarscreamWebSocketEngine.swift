@@ -3,8 +3,6 @@
 //
 
 import Foundation
-
-#if canImport(Starscream)
 import Starscream
     
 class StarscreamWebSocketProvider: WebSocketEngine {
@@ -69,5 +67,3 @@ extension StarscreamWebSocketProvider: Starscream.WebSocketDelegate {
         }
     }
 }
-    
-#endif
