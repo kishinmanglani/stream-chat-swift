@@ -911,15 +911,14 @@
 		BDDD1EAE2632E6C200BA007B /* Appearance+SwiftUI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDD1EAD2632E6C200BA007B /* Appearance+SwiftUI_Tests.swift */; };
 		BDEB9417268211EC00928AF1 /* ChatMessageListUnreadCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB9416268211EC00928AF1 /* ChatMessageListUnreadCountView.swift */; };
 		C12873DF272FF00F00671E79 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = C12873DE272FF00F00671E79 /* Starscream */; };
-		C12873F2273003B900671E79 /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = C12873F1273003B900671E79 /* SwiftyGif */; };
 		C128746027303CE600671E79 /* StreamChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799C941B247D2F80001F1104 /* StreamChat.framework */; };
 		C13C113D2732C4F20089EBB2 /* StreamNuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13C10E22732C2730089EBB2 /* StreamNuke.framework */; };
-		C13C113E2732C4F20089EBB2 /* StreamNuke.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C13C10E22732C2730089EBB2 /* StreamNuke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C13C74D7273932D200F93B34 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13C74D2273932D200F93B34 /* UIImageView+SwiftyGif.swift */; };
 		C13C74D8273932D200F93B34 /* NSImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13C74D3273932D200F93B34 /* NSImage+SwiftyGif.swift */; };
 		C13C74D9273932D200F93B34 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13C74D4273932D200F93B34 /* UIImage+SwiftyGif.swift */; };
 		C13C74DA273932D200F93B34 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13C74D5273932D200F93B34 /* SwiftyGifManager.swift */; };
 		C13C74DB273932D200F93B34 /* NSImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13C74D6273932D200F93B34 /* NSImageView+SwiftyGif.swift */; };
+		C13C74DC2739338700F93B34 /* StreamSwiftyGif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C13C74C92739315D00F93B34 /* StreamSwiftyGif.framework */; };
 		C1BE72732732CA62006EB51E /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = C1BE72722732CA62006EB51E /* Nuke */; };
 		C1BE729F2732CB7B006EB51E /* ImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BE72762732CB7B006EB51E /* ImageViewExtensions.swift */; };
 		C1BE72A02732CB7B006EB51E /* FetchImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BE72772732CB7B006EB51E /* FetchImage.swift */; };
@@ -1326,6 +1325,13 @@
 			remoteGlobalIDString = C13C10E12732C2730089EBB2;
 			remoteInfo = StreamNuke;
 		};
+		C13C74DE2739338700F93B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AD5EC8622E9A3E8005CFAC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C13C74C82739315D00F93B34;
+			remoteInfo = StreamSwiftyGif;
+		};
 		E74DB08C2656631700508D22 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8AD5EC8622E9A3E8005CFAC9 /* Project object */;
@@ -1440,17 +1446,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C13C11412732C4F20089EBB2 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				C13C113E2732C4F20089EBB2 /* StreamNuke.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2675,8 +2670,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C12873F2273003B900671E79 /* SwiftyGif in Frameworks */,
 				C128746027303CE600671E79 /* StreamChat.framework in Frameworks */,
+				C13C74DC2739338700F93B34 /* StreamSwiftyGif.framework in Frameworks */,
 				C13C113D2732C4F20089EBB2 /* StreamNuke.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -5551,17 +5546,16 @@
 				790881F925432B7200896F03 /* Sources */,
 				790881FA25432B7200896F03 /* Frameworks */,
 				790881FB25432B7200896F03 /* Resources */,
-				C13C11412732C4F20089EBB2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				C128746327303CE600671E79 /* PBXTargetDependency */,
 				C13C11402732C4F20089EBB2 /* PBXTargetDependency */,
+				C13C74DF2739338700F93B34 /* PBXTargetDependency */,
 			);
 			name = StreamChatUI;
 			packageProductDependencies = (
-				C12873F1273003B900671E79 /* SwiftyGif */,
 			);
 			productName = StreamChatUI;
 			productReference = 790881FD25432B7200896F03 /* StreamChatUI.framework */;
@@ -7482,6 +7476,11 @@
 			target = C13C10E12732C2730089EBB2 /* StreamNuke */;
 			targetProxy = C13C113F2732C4F20089EBB2 /* PBXContainerItemProxy */;
 		};
+		C13C74DF2739338700F93B34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C13C74C82739315D00F93B34 /* StreamSwiftyGif */;
+			targetProxy = C13C74DE2739338700F93B34 /* PBXContainerItemProxy */;
+		};
 		E74DB08B2656631700508D22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 793060E525778896005CF846 /* StreamChatTestTools */;
@@ -8857,7 +8856,7 @@
 				INFOPLIST_FILE = Sources/StreamChatUI/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Stream.io Inc. All rights reserved.";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -8889,7 +8888,7 @@
 				INFOPLIST_FILE = Sources/StreamChatUI/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Stream.io Inc. All rights reserved.";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -8920,7 +8919,7 @@
 				INFOPLIST_FILE = Sources/StreamChatUI/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 Stream.io Inc. All rights reserved.";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -9442,11 +9441,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C12873DD272FF00F00671E79 /* XCRemoteSwiftPackageReference "Starscream" */;
 			productName = Starscream;
-		};
-		C12873F1273003B900671E79 /* SwiftyGif */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C12873F0273003B900671E79 /* XCRemoteSwiftPackageReference "SwiftyGif" */;
-			productName = SwiftyGif;
 		};
 		C1BE72722732CA62006EB51E /* Nuke */ = {
 			isa = XCSwiftPackageProductDependency;
