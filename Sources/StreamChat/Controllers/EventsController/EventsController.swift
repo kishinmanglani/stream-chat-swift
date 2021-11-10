@@ -33,8 +33,8 @@ public class EventsController: Controller, DelegateCallable {
     /// An internal backing object for all publicly available Combine publishers. We use it to simplify the way we expose
     /// publishers. Instead of creating custom `Publisher` types, we use `CurrentValueSubject` and `PassthroughSubject` internally,
     /// and expose the published values by mapping them to a read-only `AnyPublisher` type.
-    @available(iOS 13, *)
-    lazy var basePublishers = BasePublishers(controller: self)
+//    @available(iOS 13, *)
+//    lazy var basePublishers = BasePublishers(controller: self)
     
     /// A backing object used to deliver updates to main and additional delegates.
     var multicastDelegate = MulticastDelegate<EventsControllerDelegate>()

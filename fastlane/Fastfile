@@ -12,6 +12,22 @@ before_all do
 end
 
 desc "Release a new version"
+lane :xcframeworks do
+#    ["StreamChat", "StreamChatUI", "StreamNuke", "StreamStarscream", "StreamSwiftyGif"].each do |scheme|
+    ["StreamChatUI"].each do |scheme|
+    create_xcframework(
+      project: "StreamChat.xcodeproj",
+      scheme: scheme,
+      destinations: ["iOS"],
+      include_BCSymbolMaps: false,
+      include_debug_symbols: false,
+      xcframework_output_directory: "Products/xcframeworks",
+      remove_xcarchives: true
+    )
+  end
+end
+
+desc "Release a new version"
 lane :release do |options|
   ensure_git_branch(branch: 'main') # We can only release on default branch
   ensure_git_status_clean unless options[:no_ensure_clean]
