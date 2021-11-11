@@ -15,11 +15,11 @@ Install _fastlane_ using
 or alternatively using `brew install fastlane`
 
 # Available Actions
-### xcframeworks
+### build_xcframeworks
 ```
-fastlane xcframeworks
+fastlane build_xcframeworks
 ```
-Release a new version
+Build .xcframeworks
 ### release
 ```
 fastlane release

@@ -11,19 +11,20 @@ before_all do
   end
 end
 
-desc "Release a new version"
-lane :xcframeworks do
-#    ["StreamChat", "StreamChatUI", "StreamNuke", "StreamStarscream", "StreamSwiftyGif"].each do |scheme|
-    ["StreamChatUI"].each do |scheme|
+desc "Build .xcframeworks"
+lane :build_xcframeworks do
+  output_directory = "#{Dir.pwd}/../Products"
+  ["StreamChatUI", "StreamChat", "StreamNuke", "StreamStarscream", "StreamSwiftyGif"].each do |scheme|
     create_xcframework(
       project: "StreamChat.xcodeproj",
       scheme: scheme,
       destinations: ["iOS"],
-      include_BCSymbolMaps: false,
-      include_debug_symbols: false,
-      xcframework_output_directory: "Products/xcframeworks",
+      include_BCSymbolMaps: true,
+      include_debug_symbols: true,
+      xcframework_output_directory: output_directory,
       remove_xcarchives: true
     )
+    sh("../remove_unneeded_symbols.sh", scheme, output_directory)
   end
 end
 
