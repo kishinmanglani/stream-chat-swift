@@ -14,8 +14,6 @@ Building on top of the the Stream Chat API, the Stream Chat iOS component librar
 - Read state and typing indicators
 - Channel and message lists
 - Push (APN or Firebase)
-- Offline storage
-- OSX
 
 ## Architecture
 

@@ -1,9 +1,7 @@
 ---
-title: UIKit Overview
+title: Overview
 slug: /uikit
 ---
-
-Building on top of the the Stream Chat API, the Stream Chat iOS component libraries include everything you need to build feature-rich and high-functioning chat user experiences out of the box.
 
 We have a component library available for UIKit. The library includes an extensive set of performant and customizable UI components which allow you to get started quickly with little to no plumbing required. The libraries support:
 
@@ -16,23 +14,6 @@ We have a component library available for UIKit. The library includes an extensi
 - Read state and typing indicators
 - Channel and message lists
 - Push (APN or Firebase)
-- Offline storage
-- OSX
-
-### Dependencies 
-
-This SDK tries to keep the list of external dependencies to a minimum, these are the dependencies currently used:
-
-#### StreamChatUI
-
-- [Nuke](https://github.com/kean/Nuke) for loading images  
-- [SwiftyGif](https://github.com/kirualex/SwiftyGif) for high performance GIF rendering
-- StreamChat the low-level client to Stream Chat API
-
-#### StreamChat
-
-- [Starscream](https://github.com/daltoniam/Starscream) to handle WebSocket connections
-
 
 ## Installation
 
@@ -60,9 +41,6 @@ After you press finish, it's done!
 :::caution
 Because StreamChat SDKs have to be distributed with its resources, the minimal Swift version requirement for this installation method is 5.3. If you need to support older Swift version, please install it using CocoaPods.
 :::
-
-
-
 
 ### Install with CocoaPods
 
