@@ -5,7 +5,7 @@ slug: /uikit
 
 Building on top of the the Stream Chat API, the Stream Chat iOS component libraries include everything you need to build feature-rich and high-functioning chat user experiences out of the box.
 
-We have a component library available for both UIKit. The library includes an extensive set of performant and customizable UI components which allow you to get started quickly with little to no plumbing required. The libraries supports:
+We have a component library available for UIKit. The library includes an extensive set of performant and customizable UI components which allow you to get started quickly with little to no plumbing required. The libraries support:
 
 - Rich media messages
 - Reactions
