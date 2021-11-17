@@ -45,16 +45,6 @@
       ]
     },
     {
-        "Combine" : [
-          "combine/combine-overview",
-          "combine/connection",
-          "combine/channels",
-          "combine/users",
-          "combine/messages",
-          "combine/events"
-        ]
-      },
-    {
       "Guides": [
         "guides/customize-message-actions",
         "guides/push-notifications",
