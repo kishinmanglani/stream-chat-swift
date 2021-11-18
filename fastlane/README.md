@@ -20,6 +20,11 @@ or alternatively using `brew install fastlane`
 fastlane build_xcframeworks
 ```
 Build .xcframeworks
+### build_static_xcframeworks
+```
+fastlane build_static_xcframeworks
+```
+Build Static .xcframeworks
 ### release
 ```
 fastlane release
