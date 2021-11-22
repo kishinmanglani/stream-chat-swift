@@ -60,7 +60,7 @@ open class ChatChannelListController: DataController, DelegateCallable, DataStor
     }
     
     /// Used for observing the database for changes.
-    open lazy var channelListObserver: ListDatabaseObserver<ChatChannel, ChannelDTO> = {
+    private(set) lazy var channelListObserver: ListDatabaseObserver<ChatChannel, ChannelDTO> = {
         let request = ChannelDTO.channelListFetchRequest(query: self.query)
         
         let observer = self.environment.createChannelListDatabaseObserver(
