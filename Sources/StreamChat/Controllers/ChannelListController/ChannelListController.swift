@@ -192,7 +192,7 @@ open class ChatChannelListController: DataController, DelegateCallable, DataStor
     ///
     /// It's safe to call this method repeatedly.
     ///
-    private func startChannelListObserverIfNeeded() {
+    open func startChannelListObserverIfNeeded() {
         guard state == .initialized else { return }
         do {
             try channelListObserver.startObserving()
