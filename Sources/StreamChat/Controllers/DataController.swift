@@ -5,7 +5,7 @@
 import Foundation
 
 /// The base class for controllers which represent and control a data entity. Not meant to be used directly.
-public class DataController: Controller {
+open class DataController: Controller {
     /// Describes the possible states of `DataController`
     public enum State: Equatable {
         /// The controller is created but no data fetched.
