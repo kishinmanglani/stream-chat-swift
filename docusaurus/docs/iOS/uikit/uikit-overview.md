@@ -3,7 +3,7 @@ title: Overview
 slug: /uikit
 ---
 
-We have a component library available for UIKit. The library includes an extensive set of performant and customizable UI components which allow you to get started quickly with little to no plumbing required. The libraries support:
+We have a component library available for UIKit. The library includes an extensive set of performant and customizable UI components which allow you to get started quickly with little to no plumbing required. The library supports:
 
 - Rich media messages
 - Reactions
