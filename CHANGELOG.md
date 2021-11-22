@@ -4,6 +4,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 # Upcoming
 
 ### 🐞 Fixed
+- Fix memory leak in GalleryVC [#1631](https://github.com/GetStream/stream-chat-swift/pull/1631)
+
+# [4.5.0](https://github.com/GetStream/stream-chat-swift/releases/tag/4.5.0)
+_November 16, 2021_
+
+### 🐞 Fixed
 - Fix message list scrolling jumps when a new message is received [#1605](https://github.com/GetStream/stream-chat-swift/pull/1605)
 - Fix message cell not resized after editing a message with bigger/smaller content [#1605](https://github.com/GetStream/stream-chat-swift/pull/1605)
 - Improve send button tap responsiveness [#1626](https://github.com/GetStream/stream-chat-swift/pull/1626)
