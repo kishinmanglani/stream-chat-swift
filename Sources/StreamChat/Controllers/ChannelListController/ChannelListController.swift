@@ -18,7 +18,7 @@ extension ChatClient {
 }
 
 /// `ChatChannelListController` is a controller class which allows observing a list of chat channels based on the provided query.
-public class ChatChannelListController: DataController, DelegateCallable, DataStoreProvider {
+open class ChatChannelListController: DataController, DelegateCallable, DataStoreProvider {
     /// The query specifying and filtering the list of channels.
     public let query: ChannelListQuery
     
